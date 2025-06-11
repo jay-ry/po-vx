@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400" height="400" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="healthcare-pattern" x="0" y="0" width="100" height="100" patternUnits="userSpaceOnUse">
+      <!-- Medical Plus Symbol -->
+      <path d="M40,35 h20 v-20 h10 v20 h20 v10 h-20 v20 h-10 v-20 h-20 z" fill="#FFFFFF" fill-opacity="0.1"/>
+      
+      <!-- Heartbeat Line -->
+      <path d="M2,50 L20,50 L30,30 L40,70 L50,50 L98,50" stroke="#FFFFFF" stroke-opacity="0.1" stroke-width="2" fill="none"/>
+      
+      <!-- DNA Helix -->
+      <path d="M75,10 Q85,25 75,40 Q65,55 75,70 Q85,85 75,90" stroke="#FFFFFF" stroke-opacity="0.07" stroke-width="2" fill="none"/>
+      <path d="M85,10 Q75,25 85,40 Q95,55 85,70 Q75,85 85,90" stroke="#FFFFFF" stroke-opacity="0.07" stroke-width="2" fill="none"/>
+      
+      <!-- Small Cross -->
+      <path d="M12,12 h6 v-6 h2 v6 h6 v2 h-6 v6 h-2 v-6 h-6 z" fill="#FFFFFF" fill-opacity="0.08"/>
+      
+      <!-- Small Circle -->
+      <circle cx="82" cy="18" r="4" fill="#FFFFFF" fill-opacity="0.08"/>
+      
+      <!-- Stethoscope Shape -->
+      <path d="M18,75 Q23,80 18,85 L10,85 Q5,85 5,80 Q5,75 10,75 Z" stroke="#FFFFFF" stroke-opacity="0.09" stroke-width="1" fill="none"/>
+      <circle cx="12" cy="88" r="2" stroke="#FFFFFF" stroke-opacity="0.09" stroke-width="1" fill="none"/>
+    </pattern>
+  </defs>
+  
+  <rect x="0" y="0" width="400" height="400" fill="url(#healthcare-pattern)"/>
+</svg>

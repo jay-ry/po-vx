@@ -1,0 +1,163 @@
+Here is a Visual Requirements Document tailored for an AI-based web development model to generate the Visitor Experience (VX) Academy platform. It ensures alignment with the Abu Dhabi Experience branding and Visit Abu Dhabi’s design language.
+
+⸻
+
+🎨 VISUAL REQUIREMENTS DOC
+
+Project: Visitor Experience (VX) Academy
+Design Theme: Aligned with Abu Dhabi Experience & VisitAbuDhabi.ae
+Intended for: AI Web Development Assistant (e.g., React + Tailwind or Design-to-Code AI)
+
+⸻
+
+1. 🧭 GENERAL BRANDING INSTRUCTIONS
+	•	Design Inspiration: https://visitabudhabi.ae/en
+	•	Brand Style: Elegant, modern, minimalistic with subtle luxury
+	•	Visual Identity Pillars:
+	•	Emirati authenticity
+	•	Cultural richness
+	•	Hospitality and excellence
+	•	Soft transitions and immersive visuals
+
+⸻
+
+2. 🌈 COLOR PALETTE
+
+Use or approximate the following tones from the Visit Abu Dhabi site:
+
+Color	Description	Hex
+Primary Red	Main brand accent	#C8102E
+Warm Sand	Backgrounds and soft UI	#F4F1EC
+Deep Charcoal	Text and contrasts	#2E2E2E
+Gold Accent	Buttons & highlights	#C9A16F
+White	Main background	#FFFFFF
+Soft Gray	Card backgrounds / secondary elements	#F8F8F8
+
+Ensure WCAG 2.1 compliance for all color contrasts.
+
+⸻
+
+3. ✍️ TYPOGRAPHY
+	•	Primary Typeface: Frutiger or equivalent modern sans-serif (fallback: Helvetica Neue, Arial, sans-serif)
+	•	Font Treatment:
+	•	Headings: Bold, clear, slightly spaced (letter-spacing: 0.5px)
+	•	Body: Clean, neutral weight
+	•	Arabic support with RTL where applicable (use a Noto-compatible Arabic font)
+
+⸻
+
+4. 🧩 UI COMPONENT STYLING
+
+A. Buttons
+	•	Rounded corners (border-radius: 12px)
+	•	States: Normal, Hover (slight shadow), Active (inverted)
+	•	Primary: Solid red (#C8102E)
+	•	Secondary: Transparent with border (#C8102E)
+
+B. Cards
+	•	Shadowed light gray background
+	•	Soft padding and rounded corners
+	•	Hover elevation
+
+C. Navigation
+	•	Fixed top navbar
+	•	Sticky scroll behavior
+	•	Hamburger menu on mobile
+	•	Clean iconography with hover glow
+
+D. Progress Tracker
+	•	Step-based visual indicator for learner progression
+	•	Colors: Red for completed, Gray for pending
+
+⸻
+
+5. 📸 IMAGERY & ICONOGRAPHY
+	•	Images: Use authentic visuals from Abu Dhabi (heritage sites, people, landmarks)
+	•	Icons: Line icons with subtle shadows, in gold or charcoal
+	•	Media Blocks:
+	•	Full-width banner images with overlay text
+	•	Video thumbnails with branded play button
+	•	Illustrated cultural elements (e.g., falcons, palm trees, geometric patterns)
+
+⸻
+
+6. 🪄 ANIMATION & TRANSITIONS
+	•	Subtle transitions:
+	•	Fade-in on scroll
+	•	Slide transitions for course content
+	•	Badge reveal animations
+	•	Micro-interactions:
+	•	Hover on buttons/cards
+	•	Progress circle fills on assessments
+	•	XP/badge pop-up with sound feedback (optional)
+
+⸻
+
+7. 📱 RESPONSIVE DESIGN
+	•	Fully mobile-optimized
+	•	Arabic RTL mirrored layout on mobile
+	•	Scalable for tablets and touch interfaces
+	•	Mobile menu: slide-in from right
+
+⸻
+
+8. 🧭 PAGE STRUCTURE GUIDELINE
+
+A. Home Page
+	•	Hero image or looping video (culture-focused)
+	•	Intro to VX Academy
+	•	Featured Modules (carousel)
+	•	“Earn while you learn” XP system teaser
+	•	Testimonials or stats block
+
+B. Learning Dashboard
+	•	Sidebar with collapsible Training Areas
+	•	Center: Course Cards / Unit View
+	•	Progress tracker (top)
+	•	XP and badge indicator (top-right corner)
+
+C. Unit Page
+	•	Header: Unit Title + Objective
+	•	Content area:
+	•	Video or interactive block
+	•	Scrollable learning content
+	•	Assessment prompt at the end
+	•	Footer: Back/Next navigation
+
+⸻
+
+9. 🧪 GAMIFICATION ELEMENTS
+	•	XP Tracker: Top-right or floating
+	•	Progress Bar: Animated, sticky during learning
+	•	Badges: Animated card flip reveal
+	•	Leaderboard: Optional team vs team score panels (future phase)
+
+⸻
+
+10. 🌍 MULTILINGUAL CONSIDERATIONS
+	•	Toggle for English/Arabic/Urdu
+	•	Use RTL layout for Arabic
+	•	Font & UI elements auto-switch direction
+	•	Localized imagery where possible
+
+⸻
+
+11. ✅ ACCESSIBILITY
+	•	All interactive elements keyboard-navigable
+	•	Clear alt text on images
+	•	Font size scalable via browser settings
+	•	High contrast mode (optional toggle)
+
+⸻
+
+12. 🔌 SAMPLE UI COMPONENT STRUCTURE (TailwindCSS Example)
+
+<button className="bg-[#C8102E] text-white px-6 py-3 rounded-xl hover:shadow-lg transition">
+  Start Module
+</button>
+
+
+
+⸻
+
+Would you like me to generate the actual Tailwind-based UI component library or screen mockups next?
